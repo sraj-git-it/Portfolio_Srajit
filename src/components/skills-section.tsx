@@ -25,7 +25,7 @@ export function SkillsSection() {
     {
       icon: BarChart,
       title: "Product Management & Analytics",
-      skills: ["Product Strategy", "User Research", "Analytics", "A/B Testing", "Roadmapping"]
+      skills: ["Product Strategy", "User Research", "Analytics", "A/B Testing", "Roadmapping", "Agile Methodology", "Waterfall Methodology"]
     },
     {
       icon: Megaphone,
@@ -85,51 +85,6 @@ export function SkillsSection() {
             })}
           </div>
 
-          {/* Technical Proficiency */}
-          <div className="mt-16 glass rounded-2xl p-8">
-            <h3 className="text-xl font-semibold text-foreground mb-8 text-center">
-              Technical Proficiency Overview
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {[
-                { skill: "AI/ML Development", level: 85 },
-                { skill: "Full-Stack Development", level: 80 },
-                { skill: "Product Strategy", level: 90 },
-                { skill: "Content Creation", level: 95 }
-              ].map((item, index) => (
-                <div key={index} className="text-center">
-                  <div className="relative w-24 h-24 mx-auto mb-4">
-                    <svg className="w-24 h-24 transform -rotate-90" viewBox="0 0 100 100">
-                      <circle
-                        cx="50"
-                        cy="50"
-                        r="40"
-                        stroke="hsl(var(--muted))"
-                        strokeWidth="8"
-                        fill="none"
-                      />
-                      <circle
-                        cx="50"
-                        cy="50"
-                        r="40"
-                        stroke="hsl(var(--primary))"
-                        strokeWidth="8"
-                        fill="none"
-                        strokeDasharray={`${2 * Math.PI * 40}`}
-                        strokeDashoffset={`${2 * Math.PI * 40 * (1 - item.level / 100)}`}
-                        className="transition-all duration-1000 ease-out"
-                        style={{ animationDelay: `${index * 0.2}s` }}
-                      />
-                    </svg>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-lg font-bold text-primary">{item.level}%</span>
-                    </div>
-                  </div>
-                  <p className="text-sm font-medium text-foreground">{item.skill}</p>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
     </section>

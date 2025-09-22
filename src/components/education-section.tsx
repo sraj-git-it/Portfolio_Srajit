@@ -53,10 +53,6 @@ export function EducationSection() {
                       <MapPin className="h-4 w-4" />
                       <span>Vellore, Tamil Nadu</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <Award className="h-4 w-4" />
-                      <span>Current CGPA: 7.75</span>
-                    </div>
                   </div>
 
                   {/* Key Courses */}
@@ -66,6 +62,9 @@ export function EducationSection() {
                       {[
                         "Data Structures & Algorithms",
                         "Machine Learning",
+                        "Artificial Intelligence",
+                        "Predictive Analytics",
+                        "AWS Cloud Computing",
                         "Computer Networks",
                         "Database Management Systems",
                         "Object-Oriented Programming",
@@ -89,7 +88,7 @@ export function EducationSection() {
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-3">
                         <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2"></div>
-                        <span>Maintained consistent academic performance with 7.75 CGPA</span>
+                        <span>Maintained consistent academic performance throughout engineering program</span>
                       </li>
                       <li className="flex items-start gap-3">
                         <div className="w-1.5 h-1.5 rounded-full bg-primary mt-2"></div>

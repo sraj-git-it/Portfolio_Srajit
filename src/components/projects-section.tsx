@@ -49,6 +49,21 @@ export function ProjectsSection() {
       featured: true
     },
     {
+      title: "Customer Churn Prediction Model",
+      description: "Developed a machine learning pipeline on the IBM Telco Customer Churn dataset, applying advanced feature engineering and tree-based models (LightGBM/XGBoost) to classify churn with ROC-AUC of 0.89 and Precision@100 of 72%. Improved retention targeting by simulating business cost–benefit analysis, projecting 15% potential reduction in churn and measurable ROI uplift in retention campaigns.",
+      icon: Brain,
+      technologies: ["Python", "LightGBM", "XGBoost", "SHAP", "LIME", "Scikit-learn", "Pandas"],
+      highlights: [
+        "ROC-AUC score of 0.89 achieved",
+        "Precision@100 of 72% for targeted retention",
+        "15% potential churn reduction projected",
+        "Enhanced explainability with SHAP and LIME"
+      ],
+      githubUrl: "#",
+      liveUrl: "#",
+      featured: false
+    },
+    {
       title: "IoT Project – Industrial IoT Prototype",
       description: "Comprehensive industrial monitoring system using IoT sensors, edge computing, and cloud analytics for real-time industrial process optimization and predictive maintenance.",
       icon: Cpu,

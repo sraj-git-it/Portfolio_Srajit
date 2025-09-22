@@ -63,37 +63,37 @@ export function ContactSection() {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/srajitsrivastava",
-      username: "@srajitsrivastava"
+      href: "https://github.com/sraj-git-it",
+      username: "@sraj-git-it"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/srajitsrivastava",
-      username: "srajitsrivastava"
+      href: "https://www.linkedin.com/in/srajit-srivastava/",
+      username: "srajit-srivastava"
     },
     {
       icon: Code,
       label: "LeetCode",
-      href: "https://leetcode.com/srajitsrivastava",
-      username: "srajitsrivastava"
+      href: "https://leetcode.com/u/srisrajit/",
+      username: "srisrajit"
     },
     {
       icon: Instagram,
       label: "Instagram",
-      href: "https://instagram.com/srajitup",
-      username: "@srajitup"
+      href: "https://www.instagram.com/srajitated/reels/",
+      username: "@srajitated"
     },
     {
       icon: Twitter,
       label: "X (Twitter)",
-      href: "https://x.com/srajitup",
-      username: "@srajitup"
+      href: "https://x.com/SrajitSrivast19",
+      username: "@SrajitSrivast19"
     },
     {
       icon: Youtube,
       label: "YouTube",
-      href: "https://youtube.com/@srajitup",
+      href: "https://www.youtube.com/@srajitup",
       username: "@srajitup"
     }
   ]

@@ -26,19 +26,11 @@ export function AchievementsSection() {
       date: "2023",
       impact: "26K+ Views"
     },
-    {
-      icon: Award,
-      title: "Creative Writing Competition Winner",
-      description: "Won multiple creative writing competitions, showcasing strong communication skills and creative storytelling abilities.",
-      category: "Literary Achievement",
-      date: "2022-2023",
-      impact: "Multiple Wins"
-    }
   ]
 
   const stats = [
-    { icon: Play, value: "26K+", label: "Video Views", description: "Viral content reach" },
-    { icon: Trophy, value: "5+", label: "Awards Won", description: "Recognition achievements" },
+    { icon: Play, value: "2.5M+", label: "Content Views", description: "Total content reach" },
+    { icon: Trophy, value: "4+", label: "Awards Won", description: "Recognition achievements" },
     { icon: Users, value: "1K+", label: "Followers", description: "Social media reach" },
     { icon: TrendingUp, value: "100%", label: "Growth Rate", description: "Year-over-year engagement" }
   ]

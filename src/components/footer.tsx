@@ -4,12 +4,12 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/srajitsrivastava", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/srajitsrivastava", label: "LinkedIn" },
-    { icon: Code, href: "https://leetcode.com/srajitsrivastava", label: "LeetCode" },
-    { icon: Instagram, href: "https://instagram.com/srajitup", label: "Instagram" },
-    { icon: Twitter, href: "https://x.com/srajitup", label: "X (Twitter)" },
-    { icon: Youtube, href: "https://youtube.com/@srajitup", label: "YouTube" }
+    { icon: Github, href: "https://github.com/sraj-git-it", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/srajit-srivastava/", label: "LinkedIn" },
+    { icon: Code, href: "https://leetcode.com/u/srisrajit/", label: "LeetCode" },
+    { icon: Instagram, href: "https://www.instagram.com/srajitated/reels/", label: "Instagram" },
+    { icon: Twitter, href: "https://x.com/SrajitSrivast19", label: "X (Twitter)" },
+    { icon: Youtube, href: "https://www.youtube.com/@srajitup", label: "YouTube" }
   ]
 
   const quickLinks = [

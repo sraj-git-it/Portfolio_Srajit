@@ -23,9 +23,10 @@ export function ExperienceSection() {
       location: "India",
       duration: "April 2023 – December 2023",
       type: "Startup",
-      description: "Founded and led a product-focused startup, managing end-to-end product development, team coordination, and strategic planning.",
+      description: "Founded and led a product-focused startup, managing end-to-end product development, team coordination, and strategic planning. Generated revenue of 2 lakhs+ within 6 months of launch.",
       achievements: [
         "Successfully launched and managed product roadmap from conception to market",
+        "Generated revenue of 2 lakhs+ within 6 months of launch",
         "Led cross-functional teams of 8+ members across development and marketing",
         "Implemented agile methodologies and user-centered design principles",
         "Achieved significant user engagement and positive market feedback"
@@ -38,11 +39,11 @@ export function ExperienceSection() {
       location: "India",
       duration: "2021 – Present",
       type: "Personal Brand",
-      description: "Building and managing personal brand across multiple platforms, creating engaging content focused on technology, education, and entertainment.",
+      description: "Building and managing personal brand across multiple platforms, creating engaging content focused on technology, education, and entertainment. Content has reached 2.5 million+ views across platforms.",
       achievements: [
+        "Achieved 2.5 million+ total content views across all platforms",
         "Created viral rap video 'CHAAR SAAL' with 26K+ views",
         "Recognition by industry professionals including Yashraj Mukhate",
-        "Won multiple creative writing competitions",
         "Built engaged community across social media platforms"
       ],
       skills: ["Content Strategy", "Video Production", "Social Media", "Brand Building", "Creative Writing"]
