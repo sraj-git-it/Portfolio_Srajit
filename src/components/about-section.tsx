@@ -20,7 +20,7 @@ export function AboutSection() {
     {
       icon: Trophy,
       title: "Recognition",
-      description: "Award-winning content creator with 26K+ views and industry recognition"
+      description: "Award-winning content creator with 2.5M+ views and industry recognition"
     }
   ]
 
@@ -91,10 +91,9 @@ export function AboutSection() {
           </div>
 
           {/* Stats */}
-          <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="mt-16 grid grid-cols-3 gap-8">
             {[
-              { number: "7.75", label: "Current CGPA" },
-              { number: "26K+", label: "Content Views" },
+              { number: "2.5M+", label: "Content Views" },
               { number: "3+", label: "Years Experience" },
               { number: "10+", label: "Projects Built" }
             ].map((stat, index) => (
