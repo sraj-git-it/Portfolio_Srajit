@@ -23,10 +23,10 @@ export function ExperienceSection() {
       location: "India",
       duration: "April 2023 – December 2023",
       type: "Startup",
-      description: "Founded and led a product-focused startup, managing end-to-end product development, team coordination, and strategic planning. Generated revenue of 2 lakhs+ within 6 months of launch.",
+      description: "Founded and led a product-focused startup, managing end-to-end product development, team coordination, and strategic planning. Generated ₹2,00,000+ revenue within 6 months of launch.",
       achievements: [
+        "Generated ₹2,00,000+ revenue within 6 months of launch",
         "Successfully launched and managed product roadmap from conception to market",
-        "Generated revenue of 2 lakhs+ within 6 months of launch",
         "Led cross-functional teams of 8+ members across development and marketing",
         "Implemented agile methodologies and user-centered design principles",
         "Achieved significant user engagement and positive market feedback"

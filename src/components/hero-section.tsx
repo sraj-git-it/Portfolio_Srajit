@@ -67,7 +67,7 @@ export function HeroSection() {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 pt-8">
             <a
-              href="https://github.com/srajitsrivastava"
+              href="https://github.com/sraj-git-it"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 hover:scale-110 transition-all duration-300 group"
@@ -75,7 +75,7 @@ export function HeroSection() {
               <Github className="h-6 w-6 group-hover:text-primary" />
             </a>
             <a
-              href="https://linkedin.com/in/srajitsrivastava"
+              href="https://www.linkedin.com/in/srajit-srivastava/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary/50 hover:bg-primary/20 hover:scale-110 transition-all duration-300 group"

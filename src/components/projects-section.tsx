@@ -4,6 +4,20 @@ import { Button } from "@/components/ui/button"
 export function ProjectsSection() {
   const projects = [
     {
+      title: "Customer Churn Prediction Model",
+      description: "Developed a machine learning pipeline on the IBM Telco Customer Churn dataset, applying advanced feature engineering and tree-based models (LightGBM/XGBoost) to classify churn with strong business-facing metrics.",
+      icon: Brain,
+      technologies: ["Python", "Pandas", "NumPy", "scikit-learn", "XGBoost", "LightGBM", "SHAP", "LIME", "Feature Engineering"],
+      highlights: [
+        "Achieved ROC-AUC: 0.89 and Precision@100: 72% on holdout test sets",
+        "Simulated cost–benefit analysis and projected a ~15% reduction in churn through targeted retention campaigns, showing measurable ROI uplift",
+        "Improved explainability using SHAP and LIME, surfacing top churn drivers (e.g., contract type, tenure, service usage) for product & customer-success teams"
+      ],
+      githubUrl: "https://github.com/sraj-git-it",
+      liveUrl: "#",
+      featured: true
+    },
+    {
       title: "AI-Based Face Recognition Security System",
       description: "Advanced facial recognition system implementing state-of-the-art deep learning algorithms for secure access control. Features real-time detection, anti-spoofing measures, and scalable architecture.",
       icon: Shield,
@@ -47,21 +61,6 @@ export function ProjectsSection() {
       githubUrl: "#",
       liveUrl: "#",
       featured: true
-    },
-    {
-      title: "Customer Churn Prediction Model",
-      description: "Developed a machine learning pipeline on the IBM Telco Customer Churn dataset, applying advanced feature engineering and tree-based models (LightGBM/XGBoost) to classify churn with ROC-AUC of 0.89 and Precision@100 of 72%. Improved retention targeting by simulating business cost–benefit analysis, projecting 15% potential reduction in churn and measurable ROI uplift in retention campaigns.",
-      icon: Brain,
-      technologies: ["Python", "LightGBM", "XGBoost", "SHAP", "LIME", "Scikit-learn", "Pandas"],
-      highlights: [
-        "ROC-AUC score of 0.89 achieved",
-        "Precision@100 of 72% for targeted retention",
-        "15% potential churn reduction projected",
-        "Enhanced explainability with SHAP and LIME"
-      ],
-      githubUrl: "#",
-      liveUrl: "#",
-      featured: false
     },
     {
       title: "IoT Project – Industrial IoT Prototype",
@@ -187,7 +186,7 @@ export function ProjectsSection() {
               variant="outline"
               size="lg"
               className="border-primary/50 hover:border-primary hover:bg-primary/10"
-              onClick={() => window.open("https://github.com/srajitsrivastava", '_blank')}
+              onClick={() => window.open("https://github.com/sraj-git-it", '_blank')}
             >
               <Github className="mr-2 h-5 w-5" />
               View All Projects on GitHub

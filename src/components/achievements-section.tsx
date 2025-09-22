@@ -13,7 +13,7 @@ export function AchievementsSection() {
     {
       icon: Star,
       title: "Recognized by Yashraj Mukhate",
-      description: "Gained recognition from renowned music producer and content creator Yashraj Mukhate for creative content and musical talent.",
+      description: "Received public recognition from Yashraj Mukhate for a short musical/viral piece.",
       category: "Industry Recognition",
       date: "2023",
       impact: "Professional Validation"
