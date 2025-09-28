@@ -9,7 +9,7 @@ export function CertificationsSection() {
       description: "Comprehensive certification covering IoT architecture, edge computing, industrial sensors, and real-time data processing for manufacturing environments.",
       date: "July 2025",
       skills: ["IoT Architecture", "Edge Computing", "Industrial Sensors", "Data Analytics", "MQTT Protocol"],
-      credentialUrl: "#",
+      credentialUrl: "https://drive.google.com/file/d/15zbUh9ZqBh6cLOO2sY_9ctky6TlTWLik/view?usp=drive_link",
       verified: true,
       icon: Building2
     },
@@ -19,17 +19,7 @@ export function CertificationsSection() {
       description: "Advanced certification in product management methodologies, strategic planning, user research, and agile development practices.",
       date: "March 2024",
       skills: ["Product Strategy", "User Research", "Agile Methodologies", "Roadmapping", "Stakeholder Management"],
-      credentialUrl: "#",
-      verified: true,
-      icon: Briefcase
-    },
-    {
-      title: "Product Management Essentials",
-      issuer: "LinkedIn Learning",
-      description: "Foundational course covering product lifecycle management, market analysis, feature prioritization, and cross-functional collaboration.",
-      date: "February 2024",
-      skills: ["Product Lifecycle", "Market Analysis", "Feature Prioritization", "Cross-functional Collaboration"],
-      credentialUrl: "#",
+      credentialUrl: "https://drive.google.com/file/d/1baRTTQrPp1EMlpiFkshQoFBw3nBrKrAv/view?usp=drive_link",
       verified: true,
       icon: Briefcase
     },
@@ -39,7 +29,7 @@ export function CertificationsSection() {
       description: "Specialized certification focusing on effective collaboration between business analysts and project managers in complex organizational environments.",
       date: "January 2024",
       skills: ["Business Analysis", "Project Management", "Stakeholder Engagement", "Requirements Management"],
-      credentialUrl: "#",
+      credentialUrl: "https://drive.google.com/file/d/1ktdm0PH6Fm_AqBqHsxg0YDZNMCeRmiKZ/view?usp=drive_link",
       verified: true,
       icon: Users
     }
@@ -117,16 +107,20 @@ export function CertificationsSection() {
 
                       {/* Action Button */}
                       <div className="pt-2">
-                        <Button
-                          variant="outline"
-                          size="sm"
-                          className="border-primary/50 hover:border-primary hover:bg-primary/10"
-                          onClick={() => window.open(cert.credentialUrl, '_blank')}
-                        >
-                          <ExternalLink className="mr-2 h-4 w-4" />
-                          View Credential
-                        </Button>
+                        {cert.credentialUrl ? (
+                          <Button asChild size="sm" variant="outline" className="border-primary/50 hover:border-primary hover:bg-primary/10">
+                            <a href={cert.credentialUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center">
+                              <ExternalLink className="mr-2 h-4 w-4" />
+                              View Credential
+                            </a>
+                          </Button>
+                        ) : (
+                          <Button size="sm" variant="outline" disabled>
+                            Credential Unavailable
+                          </Button>
+                        )}
                       </div>
+
                     </div>
                   </div>
                 </div>
@@ -146,8 +140,8 @@ export function CertificationsSection() {
                 Commitment to Continuous Learning
               </h3>
               <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                These certifications represent my dedication to staying current with industry best practices 
-                and emerging technologies. I believe in combining theoretical knowledge with practical 
+                These certifications represent my dedication to staying current with industry best practices
+                and emerging technologies. I believe in combining theoretical knowledge with practical
                 application to drive meaningful innovation.
               </p>
             </div>
